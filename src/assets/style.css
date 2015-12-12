@@ -1,0 +1,40 @@
+body, section {
+  background: #ccc;
+}
+section {
+  font-family: Candara,Calibri,Segoe,"Segoe UI",Optima,Arial,sans-serif;
+  color: gray;
+  float: left;
+  padding: 1em;
+}
+h3 {
+  position: relative;
+  color: #fff;
+  top: 18em;
+  left: 1em;
+}
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+li {
+  display: inline-block;
+}
+.song-bottom {
+  height: 72px;
+  background: #fff;
+}
+select {
+  width: 7em;
+  height: 34px;
+  overflow: hidden;
+  background: url(images/dropdown_arrow.png) no-repeat right #fff;
+  border: 1px solid #ccc;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border-radius: 0;
+  color: #000;
+  font-size: 14px;
+}

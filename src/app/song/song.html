@@ -1,0 +1,23 @@
+<section ng-repeat="song in vm.songs | limitTo: 5 | filter: vm.search | orderBy: vm.sort">
+  <header>
+    <h3>{{song.title}}</h3>
+    <img ng-src="{{song.smallThumb.url}}" alt="">
+  </header>
+  <div class="song-bottom">
+    <ul>
+      <li>
+        <div>Difficulty</div>
+        <div>{{song.difficulty}}</div>
+      </li>
+      <li>
+        <div>Genre</div>
+        <!--<div>{{song.genre}}</div>-->
+        <div>genre</div>
+      </li>
+      <li>
+        <div>Length</div>
+        <div>{{song.metaData.totalTime | secondsToTime | date:'mm:ss'}}</div>
+      </li>
+    </ul>
+  </div>
+</section>

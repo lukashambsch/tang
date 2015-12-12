@@ -1,0 +1,29 @@
+body {
+  background: lightgray;
+}
+section {
+  font-family: Candara,Calibri,Segoe,"Segoe UI",Optima,Arial,sans-serif;
+  color: gray;
+  float: left;
+  padding: 1em;
+  background: lightgray;
+}
+h3 {
+  position: relative;
+  color: white;
+  top: 18em;
+  left: 1em;
+}
+ul {
+  list-style-type: none;
+}
+li {
+  display: inline-block;
+}
+.song-bottom {
+  background: white;
+}
+select {
+  overflow: hidden;
+  background: url(dropdown_arrow.png) no-repeat left #ddd;
+}
